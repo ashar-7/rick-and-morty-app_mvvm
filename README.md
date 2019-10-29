@@ -1,5 +1,5 @@
 # RMDB - Rick and Morty Database
-A Rick and Morty android app using architecture components.
+A Rick and Morty android app using jetpack architecture components.
 
 <img src="app/src/main/ic_launcher-web.png" width="300" title="Icon"/>
 
