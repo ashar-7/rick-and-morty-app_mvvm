@@ -26,9 +26,6 @@ public abstract class GIFUtils {
             "file:///android_asset/extras/rick_middle_finger.gif"
     };
 
-    public static String intro = "file:///android_asset/intro/rick_and_morty_intro.gif";
-    public static String retry = "file:///android_asset/retry/meeseeks_can_do.gif";
-
     public static String getRandomErrorGIF() {
         Random rand = new Random();
         int random = rand.nextInt(error_array.length);
