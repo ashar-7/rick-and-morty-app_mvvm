@@ -39,12 +39,14 @@ A Rick and Morty android app using architecture components.
   <img src="app\src\main\assets\error\rick_up.gif" width="150" />  
 </p>
 <p>
-  <img src="app\src\main\assets\error\morty_head_loading.gif" width="150" />
-  <img src="app\src\main\assets\error\rick_head_loading.gif" width="150" />
-  <img src="app\src\main\assets\error\portal.gif" width="150" />
-  <img src="app\src\main\assets\error\rick_eye_load.gif" width="150" />
-  <img src="app\src\main\assets\error\rick_morty_spin.gif" width="150" />
+  <img src="app\src\main\assets\loading\morty_head_loading.gif" width="150" />
+  <img src="app\src\main\assets\loading\rick_head_loading.gif" width="150" />
+  <img src="app\src\main\assets\loading\portal.gif" width="150" />
+  <img src="app\src\main\assets\loading\rick_eye_load.gif" width="150" />
+  <img src="app\src\main\assets\loading\rick_morty_spin.gif" width="150" />
 </p>
+
+#### NOTE: I DO NOT OWN ANY ASSETS INCLUDED IN THE APP
 
 ### TODO:
 * Implement caching using the <a href="https://developer.android.com/topic/libraries/architecture/room">Room</a> persistence library.
