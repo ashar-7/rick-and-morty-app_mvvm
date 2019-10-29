@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RMDB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="charactersButtonString">Characters</string>
+    <string name="episodesButtonString">Episodes</string>
+    <string name="locationsButtonString">Locations</string>
+    <string name="somethingWentWrongErrorText">Aw geez! Something went wrong.</string>
+    <string name="notFoundErrorCode">404</string>
+    <string name="notFoundErrorText">Aw man! No results found.</string>
+    <string name="searchMenuTitle">Search</string>
+
+    <string name="episodeItem">%1s - %2s</string>
+    <string name="queryIndicator">Displaying results for: %1s</string>
+
+    <string name="episodeBundleKey">episode</string>
+    <string name="characterBundleKey">character</string>
+    <string name="locationBundleKey">location</string>
+</resources>

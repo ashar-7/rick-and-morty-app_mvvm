@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/charactersListFragment"
+        android:name="com.se7en.rmdb.views.characters.CharactersFragment"
+        android:label="Characters"
+        tools:layout="@layout/fragment_characters" >
+        <action
+            android:id="@+id/action_charactersListFragment_to_characterDetailsFragment"
+            app:destination="@id/characterDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationsListFragment"
+        android:name="com.se7en.rmdb.views.locations.LocationsFragment"
+        android:label="Locations"
+        tools:layout="@layout/fragment_locations" >
+        <action
+            android:id="@+id/action_locationsListFragment_to_locationDetailsFragment"
+            app:destination="@id/locationDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/episodesListFragment"
+        android:name="com.se7en.rmdb.views.episodes.EpisodesFragment"
+        android:label="Episodes"
+        tools:layout="@layout/fragment_episodes" >
+        <action
+            android:id="@+id/action_episodesListFragment_to_episodeDetailsFragment"
+            app:destination="@id/episodeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.se7en.rmdb.views.MainFragment"
+        android:label="Rick and Morty Database"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_charactersListFragment"
+            app:destination="@id/charactersListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_locationsListFragment"
+            app:destination="@id/locationsListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_episodesListFragment"
+            app:destination="@id/episodesListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetailsFragment"
+        android:name="com.se7en.rmdb.views.characters.CharacterDetailsFragment"
+        android:label="Character Details"
+        tools:layout="@layout/fragment_character_details" />
+    <fragment
+        android:id="@+id/episodeDetailsFragment"
+        android:name="com.se7en.rmdb.views.episodes.EpisodeDetailsFragment"
+        android:label="Episode Details"
+        tools:layout="@layout/fragment_episode_details" />
+    <fragment
+        android:id="@+id/locationDetailsFragment"
+        android:name="com.se7en.rmdb.views.locations.LocationDetailsFragment"
+        android:label="Location Details"
+        tools:layout="@layout/fragment_location_details" />
+</navigation>

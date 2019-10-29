@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="location"
+            type="com.se7en.rmdb.data.models.locations.Location" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.locations.LocationDetailsFragment">
+
+        <TextView
+            android:id="@+id/locationNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/rick_and_morty"
+            android:gravity="center"
+            android:text="@{location.name}"
+            android:textColor="@color/primaryColor"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/typeLayout"
+            android:orientation="horizontal"
+            android:background="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/locationNameTextView">
+
+            <TextView
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#111111"
+                android:text="TYPE"
+                android:textSize="24sp"
+                android:textColor="@color/secondaryColor"
+                android:fontFamily="@font/calligraphr_regular" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#111111"
+                android:gravity="center"
+                android:text="@{location.type}"
+                android:textSize="24sp"
+                android:textColor="@color/accentColor"
+                android:fontFamily="@font/calligraphr_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dimensionLayout"
+            android:paddingBottom="1dp"
+            android:background="#111111"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/typeLayout">
+
+            <TextView
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#111111"
+                android:text="DIMENSION"
+                android:textSize="24sp"
+                android:textColor="@color/secondaryColor"
+                android:fontFamily="@font/calligraphr_regular" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#111111"
+                android:gravity="center"
+                android:text="@{location.dimension}"
+                android:textSize="24sp"
+                android:textColor="@color/accentColor"
+                android:fontFamily="@font/calligraphr_regular" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
