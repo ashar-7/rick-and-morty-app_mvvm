@@ -9,15 +9,15 @@ A Rick and Morty android app using architecture components.
 
 ## Libraries:
   ### Jetpack architecture components:
-* ViewModel
-* LiveData
-* Navigation
-* Paging
-* Data Binding
+* <a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a>
+* <a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a>
+* <a href="https://developer.android.com/topic/libraries/architecture/navigation.html">Navigation</a>
+* <a href="https://developer.android.com/topic/libraries/architecture/paging/">Paging</a>
+* <a href="https://developer.android.com/topic/libraries/data-binding/">Data Binding</a>
 
  ### Other libraries:
-* Retrofit
-* Glide
+* <a href="https://square.github.io/retrofit/">Retrofit</a>
+* <a href="https://bumptech.github.io/glide/">Glide</a>
 
 ## Screens:
 <p>
