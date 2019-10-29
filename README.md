@@ -21,7 +21,7 @@ A Rick and Morty android app using architecture components.
 
 ## Screens:
 <p>
-  <img src="screens/Home.png" width="250"/>
+  <img src="screens/Home.png" height="250"/>
   <img src="screens/Characters.png" width="250"/>
   <img src="screens/Locations.png" width="250"/>
 </p>
