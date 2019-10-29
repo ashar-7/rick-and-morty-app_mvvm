@@ -21,13 +21,22 @@ A Rick and Morty android app using architecture components.
 
 ## Screens:
 <p>
-  <img src="screens/Home.png" height="250"/>
+  <img src="screens/Home.png" width="250"/>
   <img src="screens/Characters.png" width="250"/>
   <img src="screens/Locations.png" width="250"/>
 </p>
 <p>
   <img src="screens/Episodes.png" width="250"/>
   <img src="screens/CharacterDetails.png" width="250"/>
+</p>
+
+## GIFs:
+<p>
+  <img src="app\src\main\assets\error\jerry_cry.gif" width="150"/>
+  <img src="app\src\main\assets\error\rick_blurp.gif" width="150" />
+  <img src="app\src\main\assets\error\rick_cup_blink.gif" width="150" />
+  <img src="app\src\main\assets\error\rick_morty_summer.gif" width="150" />
+  <img src="app\src\main\assets\error\rick_up.gif" width="150" />  
 </p>
 
 ### TODO:
