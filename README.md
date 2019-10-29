@@ -30,7 +30,7 @@ A Rick and Morty android app using jetpack architecture components.
   <img src="screens/CharacterDetails.png" width="250"/>
 </p>
 
-## GIFs:
+## GIFs used:
 <p>
   <img src="app\src\main\assets\error\jerry_cry.gif" width="150"/>
   <img src="app\src\main\assets\error\rick_blurp.gif" width="150" />
