@@ -10,9 +10,12 @@ A Rick and Morty android app using architecture components.
 * ViewModel
 * LiveData
 * Navigation
-* Retrofit
 * Paging
 * Data Binding
+
+## Other libraries:
+* Retrofit
+* Glide
 
 ### TODO:
 * Implement caching using the <a href="https://developer.android.com/topic/libraries/architecture/room">Room</a> persistence library.
