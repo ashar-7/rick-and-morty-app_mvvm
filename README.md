@@ -6,14 +6,16 @@ A Rick and Morty android app using architecture components.
 ## API:
 * <a href="https://rickandmortyapi.com">Rick and Morty API</a>
 
-## Jetpack architecture components used:
+
+## Libraries:
+  ### Jetpack architecture components:
 * ViewModel
 * LiveData
 * Navigation
 * Paging
 * Data Binding
 
-## Other libraries:
+  ### Other libraries:
 * Retrofit
 * Glide
 
