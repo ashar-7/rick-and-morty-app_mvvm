@@ -1,7 +1,5 @@
 package com.se7en.rmdb.data.remote.locations;
 
-import android.util.Log;
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 import androidx.paging.PageKeyedDataSource;
@@ -35,7 +33,6 @@ public class LocationsDataSource extends PageKeyedDataSource<Integer, Location>{
                     @Override
                     public void onResponse(@NonNull Call<LocationPageResponse> call, @NonNull Response<LocationPageResponse> response) {
                         if(!response.isSuccessful()) {
-                            Log.d("TTGGGG", "Error for query: " + queryName);
                             initialLoadLiveData.postValue(new Throwable("404"));
                         } else if(response.body() != null) {
                             if(isInvalid()) return;

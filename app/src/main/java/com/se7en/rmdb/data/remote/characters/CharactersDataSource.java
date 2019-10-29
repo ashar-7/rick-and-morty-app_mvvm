@@ -1,7 +1,5 @@
 package com.se7en.rmdb.data.remote.characters;
 
-import android.util.Log;
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 import androidx.paging.PageKeyedDataSource;
@@ -35,7 +33,6 @@ public class CharactersDataSource extends PageKeyedDataSource<Integer, Character
                     @Override
                     public void onResponse(@NonNull Call<CharacterPageResponse> call, @NonNull Response<CharacterPageResponse> response) {
                         if(!response.isSuccessful()) {
-                            Log.d("TTGGGG", "Error for query: " + queryName);
                             initialLoadLiveData.postValue(new Throwable("404"));
                         } else if(response.body() != null) {
                             if(isInvalid()) return;

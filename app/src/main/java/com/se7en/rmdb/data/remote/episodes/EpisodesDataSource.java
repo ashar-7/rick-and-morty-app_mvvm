@@ -1,7 +1,5 @@
 package com.se7en.rmdb.data.remote.episodes;
 
-import android.util.Log;
-
 import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 import androidx.paging.PageKeyedDataSource;
@@ -35,7 +33,6 @@ public class EpisodesDataSource extends PageKeyedDataSource<Integer, Episode>{
                     @Override
                     public void onResponse(@NonNull Call<EpisodePageResponse> call, @NonNull Response<EpisodePageResponse> response) {
                         if(!response.isSuccessful()) {
-                            Log.d("TTGGGG", "Error for query: " + queryName);
                             initialLoadLiveData.postValue(new Throwable("404"));
                         } else if(response.body() != null) {
                             if(isInvalid()) return;

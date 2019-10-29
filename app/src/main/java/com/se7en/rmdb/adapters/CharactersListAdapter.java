@@ -16,7 +16,6 @@ import com.bumptech.glide.Glide;
 import com.se7en.rmdb.R;
 import com.se7en.rmdb.data.models.characters.Character;
 
-
 public class CharactersListAdapter extends PagedListAdapter<Character, CharactersListAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {

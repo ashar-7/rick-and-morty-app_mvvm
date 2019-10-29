@@ -6,7 +6,6 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -182,7 +181,6 @@ public class EpisodesFragment extends Fragment {
             errorTextView.setText(R.string.notFoundErrorText);
         } else {
             errorTextView.setText(R.string.somethingWentWrongErrorText);
-            Log.d("TTGGGG", error);
 
             // Show retry button only if error is not 404
             retryButton.setVisibility(View.VISIBLE);
