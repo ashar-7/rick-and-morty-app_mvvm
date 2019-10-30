@@ -51,3 +51,4 @@ A Rick and Morty android app using jetpack architecture components.
 ### TODO:
 * Implement caching using the <a href="https://developer.android.com/topic/libraries/architecture/room">Room</a> persistence library.
 * Add more data in the details screens.
+* Maybe have a single Fragment and ViewModel for the three screens (Characters, Locations and Episodes) because they're pretty similar.
